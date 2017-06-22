@@ -1,4 +1,4 @@
-![Keepcoding](hhttps://picodotdev.github.io/blog-bitix/assets/images/logotipos/keepcoding.png)
+![Keepcoding](https://picodotdev.github.io/blog-bitix/assets/images/logotipos/keepcoding.png)
 
 # Práctica del curso de git, gitHub y Sourcetree
 ***
