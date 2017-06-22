@@ -1,8 +1,6 @@
-#Práctica del curso de git, gitHub y Sourcetree
-
-
 ---- 
-## Respuestas a la práctica 1
+## Respuestas a la práctica 1 del curso de git, gitHub y Sourcetree
+  
 1. **¿Qué comando utilizaste en el paso 11? ¿Por qué?**
 > $ git reset --hard HEAD~1
 
