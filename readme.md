@@ -14,7 +14,7 @@
 > No ha dado ningún conflicto, ya que el texto se ha insertado sin  problemas y estaban en una lista las ramas.
 4. **El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?**
 > Si, porque el archivo git-nuestro.md ha sido editado en la misma linea en dos ramas diferentes.
-5.**El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?**
+5. **El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?**
 > No, ya que se ha añadido el contenido que faltaba pero sin conflictos en el texto.
 6.**¿Qué comando o comandos utilizaste en el paso 25?**
 > Primero creo el alias con el siguiente comando: git log --graph --decorate --pretty=oneline
