@@ -3,21 +3,21 @@
 # Práctica del curso de git, gitHub y Sourcetree
 ***
 *Verónica Serna*  
-*@veronica.cookyourweb (Slack)*  
+*@veronica.cookyourweb /Slack*  
 <verserper@gmail.com>
 ***
 
 ## Ejercicio 1
   
 1. **¿Qué comando utilizaste en el paso 11? ¿Por qué?**
-> $ git reset --hard HEAD~1. Al utilizar el --hard se pierden los cambios en el working copy.
+> $ git reset --hard HEAD~1. Con el HEAD~1 retrocedo un paso y con el --hard se pierden los cambios en el working copy.
 
 2. **¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?**
-> $ git reflog // Con el reflog puedo ir directamente al último commit y seleccionarlo para hacer el reset del commit a continuación.
-> $ git reset --hard 5b2add1
-
+> $ git reflog .
+> $ git reset --hard 5b2add1 // Siendo 5b2add1 el identificador del commit (Hash).
+Con el reflog puedo ir directamente al último commit y seleccionarlo para hacer el reset del commit a continuación y rehacer el último commit.
 3. **El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?**
-> No ha dado ningún conflicto, ya que el texto se ha insertado sin  problemas y estaban en una lista las ramas.
+> No ha dado ningún conflicto, ya que el texto se ha insertado sin problemas y estaban en una lista las ramas.
 4. **El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?**
 > Si, porque el archivo git-nuestro.md ha sido editado en la misma linea en dos ramas diferentes.
 5. **El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?**
@@ -26,7 +26,7 @@
 > Primero creo el alias con el siguiente comando: git log --graph --decorate --pretty=oneline
 > Luego simplemente llamo al alias con git graph.
 7. **El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?**
-> No, porque en cada rama teniamos un commit, las ramas no formaban una lista y por lo que git te hace un merge noff , producen un nuevo commit automáticamente generado.
+> No, porque en cada rama teniamos un commit, las ramas no formaban una lista y por lo que git te hace un merge no- ff , producen un nuevo commit automáticamente generado.
 8. **¿Qué comando o comandos utilizaste en el paso 27?**
 > git reset HEAD~1 //sin hard no pierdo los cambios en el working copy.
 9. **¿Qué comando o comandos utilizaste en el paso 28?**
