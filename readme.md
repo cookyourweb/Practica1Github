@@ -1,11 +1,20 @@
+![Keepcoding](hhttps://picodotdev.github.io/blog-bitix/assets/images/logotipos/keepcoding.png)
+
+# Práctica del curso de git, gitHub y Sourcetree
+***
+*Verónica Serna*  
+*@veronica.cookyourweb (Slack)*  
+<verserper@gmail.com>
+***
+
 ---- 
-## Respuestas a la práctica 1 del curso de git, gitHub y Sourcetree
+## Ejercicio 1
   
 1. **¿Qué comando utilizaste en el paso 11? ¿Por qué?**
-> $ git reset --hard HEAD~1
+> $ git reset --hard HEAD~1. Al utilizar el --hard se pierden los cambios en el working copy.
 
 2. **¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?**
-> $ git reflog
+> $ git reflog // Con el reflog puedo ir directamente al último commit y seleccionarlo para hacer el reset del commit a continuación.
 > $ git reset --hard 5b2add1
 
 3. **El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?**
@@ -16,7 +25,7 @@
 > No, ya que se ha añadido el contenido que faltaba pero sin conflictos en el texto.
 6. **¿Qué comando o comandos utilizaste en el paso 25?**
 > Primero creo el alias con el siguiente comando: git log --graph --decorate --pretty=oneline
->Luego simplemente llamo al alias con git graph.
+> Luego simplemente llamo al alias con git graph.
 7. **El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?**
 > No, porque en cada rama teniamos un commit, las ramas no formaban una lista y por lo que git te hace un merge noff , producen un nuevo commit automáticamente generado.
 8. **¿Qué comando o comandos utilizaste en el paso 27?**
