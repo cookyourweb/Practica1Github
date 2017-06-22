@@ -16,12 +16,12 @@
 > Si, porque el archivo git-nuestro.md ha sido editado en la misma linea en dos ramas diferentes.
 5. **El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?**
 > No, ya que se ha añadido el contenido que faltaba pero sin conflictos en el texto.
-6.**¿Qué comando o comandos utilizaste en el paso 25?**
+6. **¿Qué comando o comandos utilizaste en el paso 25?**
 > Primero creo el alias con el siguiente comando: git log --graph --decorate --pretty=oneline
 >Luego simplemente llamo al alias con git graph.
-7.**El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?**
+7. **El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?**
 > No, porque en cada rama teniamos un commit, las ramas no formaban una lista y por lo que git te hace un merge noff , producen un nuevo commit automáticamente generado.
-8.**¿Qué comando o comandos utilizaste en el paso 27?**
+8. **¿Qué comando o comandos utilizaste en el paso 27?**
 > git reset HEAD~1 //sin hard no pierdo los cambios en el working copy.
 9. **¿Qué comando o comandos utilizaste en el paso 28?**
 > git reset --hard HEAD
