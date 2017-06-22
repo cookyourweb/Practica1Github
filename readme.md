@@ -27,9 +27,9 @@
 > git reset --hard HEAD
 10. **¿Qué comando o comandos utilizaste en el paso 29?**
 > git branch -D title
-11. ** ¿Qué comando o comandos utilizaste en el paso 30?**
+11. **¿Qué comando o comandos utilizaste en el paso 30?**
 > git reset --hard 65939cc y a continuacion creo de nuevo la rama: git branch title
-12. ** ¿Qué comando o comandos usaste en el paso 32?**
+12. **¿Qué comando o comandos usaste en el paso 32?**
 > Primero hago un git reflog, me voy al inicio y copio el identificador.
 > git reset 43ae30f
 13. **¿Qué comando o comandos usaste en el punto 33?**
