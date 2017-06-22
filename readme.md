@@ -7,7 +7,6 @@
 <verserper@gmail.com>
 ***
 
----- 
 ## Ejercicio 1
   
 1. **¿Qué comando utilizaste en el paso 11? ¿Por qué?**
@@ -42,4 +41,4 @@
 13. **¿Qué comando o comandos usaste en el punto 33?**
 > Como en el punto anterior en el git reflog busco el punto donde pusimos título al  poema.
 git reset  2b7fe37 
-----
+
