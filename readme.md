@@ -10,7 +10,7 @@
 ## Ejercicio 1
   
 1. **¿Qué comando utilizaste en el paso 11? ¿Por qué?**
-> $ git reset --hard HEAD~1 // 
+> $ git reset --hard HEAD~1 // Con el 'HEAD~1' retrocedo un paso y con el --hard se pierden los cambios en el working copy.
 
 2. **¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?**
 > $ git reflog .
