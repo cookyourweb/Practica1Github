@@ -2,8 +2,8 @@
 # Práctica del curso de git, gitHub y Sourcetree
 ***
 ![Keepcoding](https://d2vvqscadf4c1f.cloudfront.net/078jf4zQNCjF2CsMPMmR_128x.png)
+
 *Verónica Serna*  
-*@veronica.cookyourweb /Slack*  
 <verserper@gmail.com>
 ***
 
