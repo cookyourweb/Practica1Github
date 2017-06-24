@@ -1,5 +1,7 @@
 ![Keepcoding](https://picodotdev.github.io/blog-bitix/assets/images/logotipos/keepcoding.png)
 
+[logo]: https://d2vvqscadf4c1f.cloudfront.net/078jf4zQNCjF2CsMPMmR_128x.png "Keepcoding"
+
 # Práctica del curso de git, gitHub y Sourcetree
 ***
 *Verónica Serna*  
